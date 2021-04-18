@@ -3501,7 +3501,8 @@ footer ul.social_icons {
 
 .gross_layout.right_gross_layout::after {
 	position: absolute;
-	background: url(../images/it_service/dark_bg_img2.png);
+	background: url(../images/it_service/post-06.jpg);
+	/* background: url(../images/it_service/dark_bg_img2.png); */
 	width: 35%;
 	height: 100%;
 	left: 0;
@@ -3609,7 +3610,7 @@ footer ul.social_icons {
 }
 
 .inner_banner_section {
-	background: url('../images/it_service/inner_page_banner.jpg');
+	background: url('../images/it_service/slide4.jpg');
 	min-height: 245px;
 	background-size: cover;
 	background-position: center center;
@@ -4801,4 +4802,22 @@ footer ul.social_icons {
 /** Custom **/
 .social_icon {
   display: none;
+}
+.hide {
+	display: none;
+}
+.brand_list li {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.service_cont ul {
+	padding-left: 10px;
+}
+.service_cont li {
+	margin-bottom: 5px;
+}
+.home-banner-link {
+	color: #fff;
+	font-size: 16px;
 }

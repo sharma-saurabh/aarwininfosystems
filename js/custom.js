@@ -24,13 +24,16 @@ $("#navbar_menu").menumaker({
 /** counter js **/
 
 $('.counter-count').each(function () {
+    if ($(this).hasClass('no-count')) {
+        return;
+    }
     $(this).prop('Counter', 0).animate({
         Counter: $(this).text()
     }, {
-        duration: 5000,
+        duration: 1500,
         easing: 'swing',
         step: function (now) {
-            $(this).text(Math.ceil(now));
+            $(this).text(Math.ceil(now) + '+');
         }
     });
 });
